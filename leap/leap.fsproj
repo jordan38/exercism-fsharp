@@ -55,10 +55,10 @@
   <Import Project="$(FSharpTargetsPath)" />
   <ItemGroup>
     <None Include="App.config" />
-    <Content Include="packages.config" />
     <Compile Include="LeapYear.fs" />
     <Compile Include="LeapTest.fs" />
     <None Include="README.md" />
+    <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
@@ -68,7 +68,7 @@
       <HintPath>$(MSBuildProgramFiles32)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\$(TargetFSharpCoreVersion)\FSharp.Core.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>..\packages\NUnit.3.7.1\lib\net45\nunit.framework.dll</HintPath>
+      <HintPath>..\packages\NUnit.2.6.1\lib\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
