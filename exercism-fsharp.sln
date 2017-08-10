@@ -9,6 +9,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "leap", "leap\leap.fsproj", 
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "bob", "bob\bob.fsproj", "{07307B4D-543D-4995-B3E3-ED69CA00D605}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "sum-of-multiples", "sum-of-multiples\sum-of-multiples.fsproj", "{FE95EA2A-F83B-4CA1-B425-1B1DA9AC2839}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{07307B4D-543D-4995-B3E3-ED69CA00D605}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07307B4D-543D-4995-B3E3-ED69CA00D605}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07307B4D-543D-4995-B3E3-ED69CA00D605}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE95EA2A-F83B-4CA1-B425-1B1DA9AC2839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE95EA2A-F83B-4CA1-B425-1B1DA9AC2839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE95EA2A-F83B-4CA1-B425-1B1DA9AC2839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE95EA2A-F83B-4CA1-B425-1B1DA9AC2839}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
