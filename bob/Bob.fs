@@ -11,8 +11,9 @@ let isLetter answer =
     |> String.forall(fun c -> System.Char.IsLetter(c))
 
 let hey (answers:string) =
-    if System.String.IsNullOrEmpty(answers) || String.forall(fun c -> System.Char.IsWhiteSpace(c)) answers then "Fine. Be that way!"
-    elif isLetter answers && isUpper answers || String.exists(fun c -> c = '!') answers && answers.LastIndexOf('!') = answers.Length - 1 then "Whoa, chill out!"
-    elif String.exists(fun c -> c = '?') answers && answers.LastIndexOf('?') = answers.Length - 1 then "Sure."
+    let answers = answers.Trim()
+    if System.String.IsNullOrEmpty(answers) then "Fine. Be that way!"
+    elif isLetter answers && isUpper answers || answers.EndsWith("!") then "Whoa, chill out!"
+    elif answers.EndsWith("?") then "Sure."
     else "Whatever."
     
